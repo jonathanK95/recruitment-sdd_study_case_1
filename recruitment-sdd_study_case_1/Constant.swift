@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+let MINIMUM_TRANSACTION: Int = 10000

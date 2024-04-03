@@ -12,13 +12,21 @@
 		DAD5C032902BBA0F349139EF /* Pods_recruitment_sdd_study_case_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060CF6C351C9669B5AE57C15 /* Pods_recruitment_sdd_study_case_1.framework */; };
 		E3B9D98A2BBD540F0007B1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9892BBD540F0007B1B0 /* AppDelegate.swift */; };
 		E3B9D98C2BBD540F0007B1B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D98B2BBD540F0007B1B0 /* SceneDelegate.swift */; };
-		E3B9D98E2BBD540F0007B1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D98D2BBD540F0007B1B0 /* ViewController.swift */; };
+		E3B9D98E2BBD540F0007B1B0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D98D2BBD540F0007B1B0 /* HomeController.swift */; };
 		E3B9D9912BBD540F0007B1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B9D98F2BBD540F0007B1B0 /* Main.storyboard */; };
 		E3B9D9932BBD54110007B1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B9D9922BBD54110007B1B0 /* Assets.xcassets */; };
 		E3B9D9962BBD54110007B1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B9D9942BBD54110007B1B0 /* LaunchScreen.storyboard */; };
 		E3B9D9A12BBD54110007B1B0 /* recruitment_sdd_study_case_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9A02BBD54110007B1B0 /* recruitment_sdd_study_case_1Tests.swift */; };
 		E3B9D9AB2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9AA2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITests.swift */; };
 		E3B9D9AD2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9AC2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift */; };
+		E3B9D9BF2BBD566E0007B1B0 /* QRPaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */; };
+		E3B9D9C12BBD5E140007B1B0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C02BBD5E140007B1B0 /* Transaction.swift */; };
+		E3B9D9C32BBD631F0007B1B0 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C22BBD631F0007B1B0 /* HistoryController.swift */; };
+		E3B9D9C52BBD632D0007B1B0 /* TopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */; };
+		E3B9D9C72BBD636B0007B1B0 /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */; };
+		E3B9D9C92BBD6A6F0007B1B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C82BBD6A6F0007B1B0 /* User.swift */; };
+		E3B9D9CB2BBD6C550007B1B0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9CA2BBD6C550007B1B0 /* Extension.swift */; };
+		E3B9D9CD2BBD6C650007B1B0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9CC2BBD6C650007B1B0 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +57,7 @@
 		E3B9D9862BBD540F0007B1B0 /* recruitment-sdd_study_case_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recruitment-sdd_study_case_1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B9D9892BBD540F0007B1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3B9D98B2BBD540F0007B1B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3B9D98D2BBD540F0007B1B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3B9D98D2BBD540F0007B1B0 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		E3B9D9902BBD540F0007B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3B9D9922BBD54110007B1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3B9D9952BBD54110007B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +67,14 @@
 		E3B9D9A62BBD54110007B1B0 /* recruitment-sdd_study_case_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recruitment-sdd_study_case_1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B9D9AA2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_1UITests.swift; sourceTree = "<group>"; };
 		E3B9D9AC2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPaymentController.swift; sourceTree = "<group>"; };
+		E3B9D9C02BBD5E140007B1B0 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		E3B9D9C22BBD631F0007B1B0 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpController.swift; sourceTree = "<group>"; };
+		E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
+		E3B9D9C82BBD6A6F0007B1B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E3B9D9CA2BBD6C550007B1B0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E3B9D9CC2BBD6C650007B1B0 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F960F46526C5480D291C6B8A /* Pods_recruitment_sdd_study_case_1_recruitment_sdd_study_case_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recruitment_sdd_study_case_1_recruitment_sdd_study_case_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD1B56161C62D605E1F01E8 /* Pods-recruitment-sdd_study_case_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_1.release.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_1/Pods-recruitment-sdd_study_case_1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,13 +155,16 @@
 		E3B9D9882BBD540F0007B1B0 /* recruitment-sdd_study_case_1 */ = {
 			isa = PBXGroup;
 			children = (
+				E3B9D9BA2BBD55030007B1B0 /* Entity */,
+				E3B9D9B92BBD54D60007B1B0 /* View */,
 				E3B9D9892BBD540F0007B1B0 /* AppDelegate.swift */,
 				E3B9D98B2BBD540F0007B1B0 /* SceneDelegate.swift */,
-				E3B9D98D2BBD540F0007B1B0 /* ViewController.swift */,
 				E3B9D98F2BBD540F0007B1B0 /* Main.storyboard */,
 				E3B9D9922BBD54110007B1B0 /* Assets.xcassets */,
 				E3B9D9942BBD54110007B1B0 /* LaunchScreen.storyboard */,
 				E3B9D9972BBD54110007B1B0 /* Info.plist */,
+				E3B9D9CA2BBD6C550007B1B0 /* Extension.swift */,
+				E3B9D9CC2BBD6C650007B1B0 /* Constant.swift */,
 			);
 			path = "recruitment-sdd_study_case_1";
 			sourceTree = "<group>";
@@ -165,6 +184,27 @@
 				E3B9D9AC2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift */,
 			);
 			path = "recruitment-sdd_study_case_1UITests";
+			sourceTree = "<group>";
+		};
+		E3B9D9B92BBD54D60007B1B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9D98D2BBD540F0007B1B0 /* HomeController.swift */,
+				E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */,
+				E3B9D9C22BBD631F0007B1B0 /* HistoryController.swift */,
+				E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */,
+				E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3B9D9BA2BBD55030007B1B0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9D9C02BBD5E140007B1B0 /* Transaction.swift */,
+				E3B9D9C82BBD6A6F0007B1B0 /* User.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,9 +410,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B9D98E2BBD540F0007B1B0 /* ViewController.swift in Sources */,
+				E3B9D9C72BBD636B0007B1B0 /* TransactionController.swift in Sources */,
+				E3B9D98E2BBD540F0007B1B0 /* HomeController.swift in Sources */,
+				E3B9D9BF2BBD566E0007B1B0 /* QRPaymentController.swift in Sources */,
 				E3B9D98A2BBD540F0007B1B0 /* AppDelegate.swift in Sources */,
 				E3B9D98C2BBD540F0007B1B0 /* SceneDelegate.swift in Sources */,
+				E3B9D9CB2BBD6C550007B1B0 /* Extension.swift in Sources */,
+				E3B9D9C92BBD6A6F0007B1B0 /* User.swift in Sources */,
+				E3B9D9C32BBD631F0007B1B0 /* HistoryController.swift in Sources */,
+				E3B9D9CD2BBD6C650007B1B0 /* Constant.swift in Sources */,
+				E3B9D9C12BBD5E140007B1B0 /* Transaction.swift in Sources */,
+				E3B9D9C52BBD632D0007B1B0 /* TopUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +612,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,6 +643,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
