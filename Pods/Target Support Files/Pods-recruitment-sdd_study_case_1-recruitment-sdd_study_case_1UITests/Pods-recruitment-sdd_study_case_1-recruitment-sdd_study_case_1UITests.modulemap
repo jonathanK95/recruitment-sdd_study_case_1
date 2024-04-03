@@ -1,0 +1,6 @@
+framework module Pods_recruitment_sdd_study_case_1_recruitment_sdd_study_case_1UITests {
+  umbrella header "Pods-recruitment-sdd_study_case_1-recruitment-sdd_study_case_1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
