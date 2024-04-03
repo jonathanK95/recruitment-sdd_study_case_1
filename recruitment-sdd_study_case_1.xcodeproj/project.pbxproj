@@ -10,6 +10,9 @@
 		C14711D60EDDB9C5399B4877 /* Pods_recruitment_sdd_study_case_1_recruitment_sdd_study_case_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960F46526C5480D291C6B8A /* Pods_recruitment_sdd_study_case_1_recruitment_sdd_study_case_1UITests.framework */; };
 		D66926C7DF5FE8A70D25993D /* Pods_recruitment_sdd_study_case_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD4D276144A24F58B490F8E /* Pods_recruitment_sdd_study_case_1Tests.framework */; };
 		DAD5C032902BBA0F349139EF /* Pods_recruitment_sdd_study_case_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060CF6C351C9669B5AE57C15 /* Pods_recruitment_sdd_study_case_1.framework */; };
+		E38615352BBD9F26000D7A8B /* HistoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38615342BBD9F26000D7A8B /* HistoryTableCell.swift */; };
+		E38615382BBD9F6A000D7A8B /* HistoryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38615372BBD9F6A000D7A8B /* HistoryTableCell.xib */; };
+		E386153A2BBDA243000D7A8B /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38615392BBDA243000D7A8B /* HistoryController.swift */; };
 		E3B9D98A2BBD540F0007B1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9892BBD540F0007B1B0 /* AppDelegate.swift */; };
 		E3B9D98C2BBD540F0007B1B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D98B2BBD540F0007B1B0 /* SceneDelegate.swift */; };
 		E3B9D98E2BBD540F0007B1B0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D98D2BBD540F0007B1B0 /* HomeController.swift */; };
@@ -21,7 +24,6 @@
 		E3B9D9AD2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9AC2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift */; };
 		E3B9D9BF2BBD566E0007B1B0 /* QRPaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */; };
 		E3B9D9C12BBD5E140007B1B0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C02BBD5E140007B1B0 /* Transaction.swift */; };
-		E3B9D9C32BBD631F0007B1B0 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C22BBD631F0007B1B0 /* HistoryController.swift */; };
 		E3B9D9C52BBD632D0007B1B0 /* TopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */; };
 		E3B9D9C72BBD636B0007B1B0 /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */; };
 		E3B9D9C92BBD6A6F0007B1B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9D9C82BBD6A6F0007B1B0 /* User.swift */; };
@@ -54,6 +56,9 @@
 		B8543DC411222F602638371B /* Pods-recruitment-sdd_study_case_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_1Tests.release.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_1Tests/Pods-recruitment-sdd_study_case_1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CFD4D276144A24F58B490F8E /* Pods_recruitment_sdd_study_case_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recruitment_sdd_study_case_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EEA1D1E728DC51B873260F /* Pods-recruitment-sdd_study_case_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_1.debug.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_1/Pods-recruitment-sdd_study_case_1.debug.xcconfig"; sourceTree = "<group>"; };
+		E38615342BBD9F26000D7A8B /* HistoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableCell.swift; sourceTree = "<group>"; };
+		E38615372BBD9F6A000D7A8B /* HistoryTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableCell.xib; sourceTree = "<group>"; };
+		E38615392BBDA243000D7A8B /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		E3B9D9862BBD540F0007B1B0 /* recruitment-sdd_study_case_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recruitment-sdd_study_case_1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B9D9892BBD540F0007B1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3B9D98B2BBD540F0007B1B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +74,6 @@
 		E3B9D9AC2BBD54110007B1B0 /* recruitment_sdd_study_case_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRPaymentController.swift; sourceTree = "<group>"; };
 		E3B9D9C02BBD5E140007B1B0 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		E3B9D9C22BBD631F0007B1B0 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpController.swift; sourceTree = "<group>"; };
 		E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
 		E3B9D9C82BBD6A6F0007B1B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -128,6 +132,27 @@
 				CFD4D276144A24F58B490F8E /* Pods_recruitment_sdd_study_case_1Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E38615332BBD9F06000D7A8B /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E38615342BBD9F26000D7A8B /* HistoryTableCell.swift */,
+				E38615372BBD9F6A000D7A8B /* HistoryTableCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		E38615362BBD9F39000D7A8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9D98D2BBD540F0007B1B0 /* HomeController.swift */,
+				E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */,
+				E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */,
+				E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */,
+				E38615392BBDA243000D7A8B /* HistoryController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E3B9D97D2BBD540F0007B1B0 = {
@@ -189,11 +214,8 @@
 		E3B9D9B92BBD54D60007B1B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E3B9D98D2BBD540F0007B1B0 /* HomeController.swift */,
-				E3B9D9BE2BBD566E0007B1B0 /* QRPaymentController.swift */,
-				E3B9D9C22BBD631F0007B1B0 /* HistoryController.swift */,
-				E3B9D9C42BBD632D0007B1B0 /* TopUpController.swift */,
-				E3B9D9C62BBD636B0007B1B0 /* TransactionController.swift */,
+				E38615362BBD9F39000D7A8B /* Controller */,
+				E38615332BBD9F06000D7A8B /* TableCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -317,6 +339,7 @@
 				E3B9D9962BBD54110007B1B0 /* LaunchScreen.storyboard in Resources */,
 				E3B9D9932BBD54110007B1B0 /* Assets.xcassets in Resources */,
 				E3B9D9912BBD540F0007B1B0 /* Main.storyboard in Resources */,
+				E38615382BBD9F6A000D7A8B /* HistoryTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +436,12 @@
 				E3B9D9C72BBD636B0007B1B0 /* TransactionController.swift in Sources */,
 				E3B9D98E2BBD540F0007B1B0 /* HomeController.swift in Sources */,
 				E3B9D9BF2BBD566E0007B1B0 /* QRPaymentController.swift in Sources */,
+				E38615352BBD9F26000D7A8B /* HistoryTableCell.swift in Sources */,
+				E386153A2BBDA243000D7A8B /* HistoryController.swift in Sources */,
 				E3B9D98A2BBD540F0007B1B0 /* AppDelegate.swift in Sources */,
 				E3B9D98C2BBD540F0007B1B0 /* SceneDelegate.swift in Sources */,
 				E3B9D9CB2BBD6C550007B1B0 /* Extension.swift in Sources */,
 				E3B9D9C92BBD6A6F0007B1B0 /* User.swift in Sources */,
-				E3B9D9C32BBD631F0007B1B0 /* HistoryController.swift in Sources */,
 				E3B9D9CD2BBD6C650007B1B0 /* Constant.swift in Sources */,
 				E3B9D9C12BBD5E140007B1B0 /* Transaction.swift in Sources */,
 				E3B9D9C52BBD632D0007B1B0 /* TopUpController.swift in Sources */,

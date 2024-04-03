@@ -50,6 +50,7 @@ class HomeController: UIViewController {
     @IBAction func historyAction() {
         
         guard let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HistoryController") as? HistoryController else { return }
+        vc.thisUser = self.thisUser
         self.navigationController?.pushViewController(vc, animated: true)
         
     }
