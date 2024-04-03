@@ -29,6 +29,27 @@ final class recruitment_sdd_study_case_1UITests: XCTestCase {
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testTopUpController() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        //Open History Controller
+        app.buttons["History"].tap()
+        var historyTable = app.tables.element(boundBy: 0)
+        XCTAssertEqual(historyTable.cells.count, 3)
+        
+        //Open Top Up Controller
+        app.navigationBars.buttons["Back"].tap()
+        app.buttons["Top Up"].tap()
+        app.buttons["Rp.100.000"].tap()
+        app.buttons["Ok"].tap()
+        app.navigationBars.buttons["Back"].tap()
+        app.buttons["History"].tap()
+        historyTable = app.tables.element(boundBy: 0)
+        XCTAssertEqual(historyTable.cells.count, 4)
+    }
+    
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
