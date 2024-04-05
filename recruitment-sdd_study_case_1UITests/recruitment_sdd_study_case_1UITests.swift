@@ -40,11 +40,11 @@ final class recruitment_sdd_study_case_1UITests: XCTestCase {
         XCTAssertEqual(historyTable.cells.count, 3)
         
         //Open Top Up Controller
-        app.navigationBars.buttons["Back"].tap()
+        app.navigationBars.buttons.element(boundBy: 0).tap()
         app.buttons["Top Up"].tap()
         app.buttons["Rp.100.000"].tap()
         app.buttons["Ok"].tap()
-        app.navigationBars.buttons["Back"].tap()
+        app.navigationBars.buttons.element(boundBy: 0).tap()
         app.buttons["History"].tap()
         historyTable = app.tables.element(boundBy: 0)
         XCTAssertEqual(historyTable.cells.count, 4)
